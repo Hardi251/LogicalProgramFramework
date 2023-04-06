@@ -1,0 +1,16 @@
+PODS:
+  - LogicalProgram (1.0.0)
+
+DEPENDENCIES:
+  - LogicalProgram (from `../LogicalProgram`)
+
+EXTERNAL SOURCES:
+  LogicalProgram:
+    :path: "../LogicalProgram"
+
+SPEC CHECKSUMS:
+  LogicalProgram: e4d56663a84aa8e8f38b97b0ce9f6162eccfaca1
+
+PODFILE CHECKSUM: 0ca7b85cae3aa387eecd81e1f16d1c89ef7b66f6
+
+COCOAPODS: 1.12.0

@@ -14,7 +14,7 @@ public class Service {
     public static func FactorialProgram(num: Int) -> Int {
         var fiboNumberOne = 1
         var fiboNumberTwo = 0
-        for i in 0..<num
+        for _ in 0..<num
         {
             let temp = fiboNumberOne + fiboNumberTwo
             fiboNumberOne = fiboNumberTwo
@@ -26,14 +26,14 @@ public class Service {
     
     public static func FibbonacciProgram(num: Int) -> Int {
         var total = 0
-        for i in 1...num {
-            if i == 1 {
+        for f in 1...num {
+            if f == 1 {
             } else {
                 if total > 0 {
-                    total = i * total // 2
+                    total = f * total // 2
                     print(total)
                 } else {
-                    total = i * (i - 1)
+                    total = f * (f - 1)
                 }
             }
         }
